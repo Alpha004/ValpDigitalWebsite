@@ -23,10 +23,16 @@ export default function HomePage() {
               />
               <div className="flex flex-wrap items-center justify-center">
                 <span className="mt-4 xl:text-4xl">Contactanos en Whatsapp </span>
-                <div className="mx-auto max-w-md px-4 lg:py-10 xl:text-8xl text-green-400">
-                  <a href="https://api.whatsapp.com/send?phone=51980227242">
-                    <IconWhatsappBusiness />
-                  </a>
+                <div className="mx-auto max-w-md px-4 lg:py-10 xl:text-10xl text-green-400">
+                    <a href="https://api.whatsapp.com/send?phone=51980227242">
+                    <Image
+                src="/assets/images/whatsapp.png"
+                alt="Whatsapp Logo"
+                width={250}
+                height={250}
+                priority={true}
+              />
+                    </a>
                 </div>
               </div>
             </div>
