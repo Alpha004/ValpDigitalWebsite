@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import style from "./page.module.css";
 import { IconFacebook, IconWhatsappBusiness } from "../components";
+import IconInstagram from "../components/icons/IconInstagram";
 
 export default function HomePage() {
   return (
@@ -24,7 +25,7 @@ export default function HomePage() {
               <div className="flex flex-wrap items-center justify-center">
                 <span className="mt-4 xl:text-4xl">Contactanos en Whatsapp </span>
                 <div className="mx-auto max-w-md px-4 lg:py-10 xl:text-10xl text-green-400">
-                    <a href="https://api.whatsapp.com/send?phone=51980227242">
+                    <a href="https://api.whatsapp.com/send?phone=51980227242&text=Quisiera+Información">
                     <Image
                 src="/assets/images/whatsapp.png"
                 alt="Whatsapp Logo"
@@ -66,6 +67,8 @@ export default function HomePage() {
                   </option>
                 </ul>
                 <br />
+                <p>Facebook: <a href="https://www.facebook.com/VALPDigital" className="text-blue-400">https://www.facebook.com/VALPDigital</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/valpdigital" className="text-blue-400">https://www.instagram.com/valpdigital</a></p>
                 <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   Contamos con delivery gratuito a todo Jose Luis Bustamante y
                   Rivero ✈️!! Puedes solicitar nuestro catalogo y solicitar
@@ -109,19 +112,23 @@ export default function HomePage() {
           </nav>
           <div className="mt-8 flex justify-center space-x-6">
             <a
-              href="https://api.whatsapp.com/send?phone=51980227242"
+              href="https://api.whatsapp.com/send?phone=51980227242&text=Quisiera+Información"
               className="text-gray-400 hover:text-gray-500"
             >
               <span className="sr-only">Whatsapp</span>
               <IconWhatsappBusiness />
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href="https://www.facebook.com/VALPDigital" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">Facebook</span>
               <IconFacebook />
             </a>
+            <a href="https://www.instagram.com/valpdigital" className="text-gray-400 hover:text-gray-500">
+              <span className="sr-only">Instagram</span>
+              <IconInstagram />
+            </a>
           </div>
           <p className="mt-8 text-center text-base text-gray-400">
-            © 2022 Web3Templates. All rights reserved.
+            © 2025 Valp Digital. All rights reserved.
           </p>
         </div>
       </footer>
