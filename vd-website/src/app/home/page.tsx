@@ -3,7 +3,6 @@ import Image from "next/image";
 import Head from 'next/head';
 // import Spline from "@splinetool/react-spline/next";
 
-import style from "./page.module.css";
 import { IconFacebook, IconWhatsappBusiness } from "../components";
 import IconInstagram from "../components/icons/IconInstagram";
 
